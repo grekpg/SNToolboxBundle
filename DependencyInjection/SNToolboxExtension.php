@@ -53,6 +53,7 @@ class SNToolboxExtension extends Extension
             $configs
         );
 
+        if(method_exists($this,'addClassesToCompile'))
         $this->addClassesToCompile(array(
             // exception
             ExceptionListener::class,
