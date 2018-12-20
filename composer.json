@@ -1,6 +1,6 @@
 {
-  "name": "sonntagnacht/toolbox-bundle",
-  "description": "collection of Tools for symfony 2.8+",
+  "name": "grekpg/toolbox-bundle",
+  "description": "collection of Tools for symfony 4+",
   "type": "symfony-bundle",
   "authors": [
     {
@@ -17,7 +17,6 @@
   },
   "require-dev": {
     "phpunit/phpunit": "6.4.*",
-    "symfony/framework-standard-edition": "3.*",
     "symfony/security-acl": "3.*"
   },
   "autoload": {
